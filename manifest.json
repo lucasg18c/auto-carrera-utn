@@ -1,0 +1,15 @@
+{
+    "name": "Dominio Automático UTN",
+    "description": "Te permite elegir tu dominio en UTN-FRC para que se elija siempre automáticamente.",
+    "version": "1.0",
+    "manifest_version": 3,  
+    "content_scripts": [
+        {
+            "matches": ["https://www.frc.utn.edu.ar/logon.frc"],
+            "js": ["auto_carrera.js"]
+        }
+    ],
+    "icons": {
+        "128": "/128.png"
+    }
+  }
